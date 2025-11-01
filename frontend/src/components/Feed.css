@@ -1,0 +1,25 @@
+.feed {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.no-posts {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  color: #666;
+}
